@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static%}
+    <link rel="stylesheet" type="text/css" href="{%static 'result.css'%}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>결과</h1>
+    <div class="wrapper1">
+        <div class="text">
+            {{text}}
+
+        </div>
+    </div>  
+    <div class="wrapper2">   
+        <div class="content">
+            <p>
+            글자 수: {{total_len}} 자
+            </p>
+            <p>
+            공백 제외 글자수: {{exclude_space}} 자
+            </p>
+            <p class="except">
+            단어 개수: {{word_count}} 개
+            </p>
+        </div>
+    </div>
+</body>
+</html>

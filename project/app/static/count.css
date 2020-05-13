@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(231, 250, 250);
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+h1{ border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width:600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.textbox{
+    box-sizing: border-box;
+    padding: 5px;
+    width: 600px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    margin:30px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+input{
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
